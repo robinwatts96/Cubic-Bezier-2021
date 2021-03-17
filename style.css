@@ -2,16 +2,25 @@ body {
     font-family: Poppins;
 }
 
+/* Bezier Cubes */
+
 .bezier {
     width: 5em;
     height: 5em;
     margin: 1em 0;
     border-radius: 20%;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .bezier:active {
     width: 300px;
     background-color: red;
     transition: width 2s;
+}
+
+h2 {
+    color: white;  
 }
