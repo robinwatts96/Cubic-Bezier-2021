@@ -12,7 +12,7 @@ body {
     background-color: blue;
     display: flex;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
 }
 
 .bezier:active {
@@ -21,6 +21,14 @@ body {
     transition: width 2s;
 }
 
-h2 {
-    color: white;  
+.bezier h2 {
+    color: white; 
+    font-size: 1em;
+    position: relative; 
+    top: 1em;
+}
+
+#e-i-o-t {
+    font-size: 0.8em;
+    top: 1.5em;
 }
