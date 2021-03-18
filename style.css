@@ -2,13 +2,64 @@ body {
     font-family: Poppins;
 }
 
+/* Layout */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    column-gap: 1em;
+    grid-template-areas: 
+    ". ease"
+    ". linear"
+    "all ease-in"
+    ". ease-out"
+    ". ease-in-out";
+    width: 90vw;
+    margin: 0 auto;
+    background-color: red;
+}
+
+
+/* Grid Areas */
+#all {
+    grid-area: all;
+}
+
+.ease {
+    grid-area: ease;
+}
+
+.linear {
+    grid-area: linear;
+}
+
+.ease-in {
+    grid-area: ease-in;
+}
+
+.ease-out {
+    grid-area: ease-out;
+}
+
+.ease-in-out {
+    grid-area: ease-in-out;
+}
+
+.cubic-track {
+    height: 5em;
+    width: 100%;
+    margin: 0.5em 0;
+    border-radius: 10%;
+    background-color: grey;
+}
+
 /* Bezier Cubes */
 
 .bezier {
     width: 5em;
     height: 5em;
-    margin: 1em 0;
-    border-radius: 20%;
+    
+    border-radius: 10%;
     background-color: blue;
     display: flex;
     justify-content: center;
