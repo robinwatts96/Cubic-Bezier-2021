@@ -88,3 +88,24 @@ body {
     font-size: 0.8em;
     top: 1.5em;
 }
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 1025px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "all" 
+        "ease"
+        "linear"
+        "ease-in"
+        "ease-out"
+        "ease-in-out";
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    #all {
+        width: 25%;
+    }
+}
