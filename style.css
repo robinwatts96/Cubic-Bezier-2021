@@ -7,6 +7,10 @@ body {
     border-radius: 10%;
 }
 
+h1 {
+    margin-left: 4%;
+}
+
 /* Layout */
 .grid {
     display: grid;
@@ -106,6 +110,11 @@ body {
     }
 
     #all {
-        width: 25%;
+        width: 6em;
+        height: 6em;
+    }
+
+    h1 {
+        margin-left: 9%;
     }
 }
