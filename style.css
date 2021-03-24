@@ -75,11 +75,11 @@ h1 {
     
 }
 
-.bezier:active {
+/* .bezier:active {
     width: 300px;
     background-color: red;
     transition: width 2s;
-}
+} */
 
 .bezier h2 {
     color: white; 
