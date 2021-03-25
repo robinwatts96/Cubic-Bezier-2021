@@ -100,22 +100,27 @@ h1 {
 /* Transition */
 #ease:active {
     transform: translate(68vw);
+    transition: all 2.5s ease;
 }
 
 #linear:active {
     transform: translate(68vw);
+    transition: all 2.5s linear;
 }
 
 #ease-in:active {
     transform: translate(68vw);
+    transition: all 2.5s ease-in;
 }
 
 #ease-out:active {
     transform: translate(68vw);
+    transition: all 2.5s ease-out;
 }
 
 #ease-in-out:active {
     transform: translate(68vw);
+    transition: all 2.5s ease-in;
 }
 
 /* Media queries */
