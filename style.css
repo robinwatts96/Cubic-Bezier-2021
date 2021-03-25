@@ -7,10 +7,12 @@ body {
     border-radius: 10%;
     width: 50%;
     font-size: 1em;
+    color: blue;
 }
 
 h1 {
     margin-left: 4%;
+    text-decoration: underline;
 }
 
 /* Layout */
@@ -27,7 +29,7 @@ h1 {
     ". ease-in-out";
     width: 90vw;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
