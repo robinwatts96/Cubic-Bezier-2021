@@ -98,7 +98,23 @@ h1 {
 }
 
 /* Transition */
-.bezier:active {
+#ease:active {
+    transform: translate(68vw);
+}
+
+#linear:active {
+    transform: translate(68vw);
+}
+
+#ease-in:active {
+    transform: translate(68vw);
+}
+
+#ease-out:active {
+    transform: translate(68vw);
+}
+
+#ease-in-out:active {
     transform: translate(68vw);
 }
 
