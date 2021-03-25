@@ -5,6 +5,8 @@ body {
 #all {
     border: 0.5em blue solid;
     border-radius: 10%;
+    width: 50%;
+    font-size: 1em;
 }
 
 h1 {
