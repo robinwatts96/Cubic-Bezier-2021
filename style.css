@@ -7,6 +7,7 @@ body {
     border-radius: 10%;
     width: 50%;
     font-size: 1em;
+    font-weight: 700;
     color: blue;
 }
 
@@ -29,8 +30,7 @@ h1 {
     ". ease-in-out";
     width: 90vw;
     margin: 0 auto;
-    /* border: 1px solid black; */
-}
+    }
 
 
 /* Grid Areas */
@@ -95,6 +95,11 @@ h1 {
 #e-i-o-t {
     font-size: 0.8em;
     top: 1.5em;
+}
+
+/* Transition */
+.bezier:active {
+    transform: translate(68vw);
 }
 
 /* Media queries */
