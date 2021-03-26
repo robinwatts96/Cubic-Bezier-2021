@@ -4,11 +4,17 @@ body {
 
 #all {
     border: 0.5em blue solid;
+    outline: none;
     border-radius: 10%;
     width: 50%;
     font-size: 1em;
     font-weight: 700;
     color: blue;
+    background-color: white;
+}
+
+button:focus {
+    
 }
 
 h1 {
