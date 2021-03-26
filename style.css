@@ -79,11 +79,11 @@ h1 {
     
 }
 
-/* .bezier:active {
-    width: 300px;
-    background-color: red;
-    transition: width 2s;
-} */
+.bezier:hover,
+#all:hover {
+    transform: scale(1.2);
+    transition: all 500ms cubic-bezier(0.175, 0.885, 0.402, 1.275);
+}
 
 .bezier h2 {
     color: white; 
