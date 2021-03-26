@@ -13,10 +13,6 @@ body {
     background-color: white;
 }
 
-button:focus {
-    
-}
-
 h1 {
     margin-left: 4%;
     text-decoration: underline;

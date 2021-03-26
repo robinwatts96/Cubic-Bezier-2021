@@ -1,8 +1,22 @@
-// alert("hi");
+// Test function (comment out when not in use)
+// function triggerAll() {
+ 
+//    var buttonClick = document.getElementById ("all").style.color = "red";
 
-// var Hello = document.getElementsByTagName("button");
-// Hello.style.color = "red";
+// }
 
-var s = document.getElementById("test").innerHTML;
-   document.write(s);
+
+// All transitions function
+function triggerAll() {
+ 
+   const buttonClick = document.getElementById ("all");
+
+   buttonClick = document.getElementsByClassName("bezier").style.transform = "translate(68vw)";
+
+}
+
+
+
+
+
 
