@@ -5,11 +5,13 @@
 
 // }
 
-// function triggerAll() {
- 
-//    var buttonClick = document.getElementsByClassName ("bezier").style.backgroundColor = "red";
+// If statement
+var buttonClick = document.getElementById ("all");
 
-// }
+if (buttonClick == true) {
+   alert('yes!');
+};
+
 
 
 // All transitions function
