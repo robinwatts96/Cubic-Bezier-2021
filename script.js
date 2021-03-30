@@ -6,11 +6,11 @@
 // }
 
 // If statement
-var buttonClick = document.getElementById ("all");
+// var buttonClick = document.getElementById ("all");
 
-if (buttonClick == true) {
-   alert('yes!');
-};
+// if (buttonClick == true) {
+//    alert('yes!');
+// };
 
 
 
@@ -22,6 +22,21 @@ if (buttonClick == true) {
 //    buttonClick = document.getElementsByClassName("bezier").style.transform = "translate(68vw)";
 
 // }
+
+// All transitions function (attempt 2)
+// const buttonClick = document.getElementById ("all");
+
+// buttonClick.onclick = function(){
+//    alert('yes');
+// }
+
+// function triggerAll() {
+//    var buttonClick = document.getElementById("all");
+//    if (buttonClick.onclick == true) {
+//       alert('hi');
+//    }
+//  }
+
 
 
 
