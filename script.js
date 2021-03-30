@@ -5,15 +5,21 @@
 
 // }
 
+// function triggerAll() {
+ 
+//    var buttonClick = document.getElementsByClassName ("bezier").style.backgroundColor = "red";
+
+// }
+
 
 // All transitions function
-function triggerAll() {
+// function triggerAll() {
  
-   const buttonClick = document.getElementById ("all");
+//    const buttonClick = document.getElementById ("all");
 
-   buttonClick = document.getElementsByClassName("bezier").style.transform = "translate(68vw)";
+//    buttonClick = document.getElementsByClassName("bezier").style.transform = "translate(68vw)";
 
-}
+// }
 
 
 
