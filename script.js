@@ -5,12 +5,12 @@
 
 // }
 
-// If statement
-// var buttonClick = document.getElementById ("all");
+If statement
+var buttonClick = document.getElementById ("all");
 
-// if (buttonClick == true) {
-//    alert('yes!');
-// };
+if (buttonClick == true) {
+   alert('yes!');
+};
 
 
 
